@@ -1,6 +1,6 @@
 {
-	"short_name": "450 DSA",
-	"name": "450 DSA Cracker",
+	"short_name": "ProblemSolving",
+	"name": "Algo-Hunt",
 	"icons": [
 		{
 			"src": "favicon.ico",
@@ -20,6 +20,6 @@
 	],
 	"start_url": ".",
 	"display": "standalone",
-	"theme_color": "#000000",
-	"background_color": "#ffffff"
+	"theme_color": "#FECD70",
+	"background_color": "#U+1F53D"
 }
