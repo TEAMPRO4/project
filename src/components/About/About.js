@@ -50,24 +50,10 @@ export default function About({ resetData, exportData, importData }) {
 								</a>
 							</i>{" "}
 							by{" "}
-							<b>
-								<a href="https://www.linkedin.com/in/love-babbar-38ab2887/" target="_blank" rel="noopener noreferrer">
-								
-								</a>
-							</b>{" "}
-							<span role="img" aria-label="join-hands">
-								🙏🏻
-							</span>
+							<a href="" target="_blank" rel="Github account">TEAMPRO4💪{" "}</a>
 						</h2>
-						<h4 className="text-center my-5">
-							Project by{" "}
-							<a href="https://www.linkedin.com/in/asishraju/" target="_blank" rel="noopener noreferrer">
-								Asish
-							</a>{" "}
-							<span role="img" aria-label="code-men">
-								👨🏻‍💻
-							</span>
-						</h4>
+						<br></br>
+						<br></br>
 						<h5 className="text-center">
 							<Badge
 								variant="danger"
@@ -111,14 +97,7 @@ export default function About({ resetData, exportData, importData }) {
 						</h5>
 						<h3 className="text-center my-5">
 							<Badge>
-								For the{" "}
-								<span role="img" aria-label="orange-hearth" className="emojiFix">
-									🧡
-								</span>{" "}
-								to code{" "}
-								<span role="img" aria-label="victory" className="emojiFix">
-									✌🏻
-								</span>
+								For all the mad learners out there!🧑‍💻{" "}
 							</Badge>{" "}
 						</h3>
 						<input type="file" id="file" ref={inputFile} style={{ display: "none" }} accept=".json" onChange={handleChange} />

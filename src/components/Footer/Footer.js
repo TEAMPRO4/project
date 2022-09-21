@@ -5,10 +5,10 @@ import "./footer.css";
 export default function Footer({ dark, setDark }) {
 	return (
 		<div>
-			<footer className="footer" style={{ backgroundColor: dark ? "#393E46" : "" }}>
+			<footer className="footer" style={{ backgroundColor: dark ? "#151515d3" : "" }}>
 				<div className="d-flex bd-highlight">
 					<div className="p-2 bd-highlight">
-						<a href="https://github.com/AsishRaju/450-DSA">
+						<a href="">
 							<h4>
 								<Badge pill variant="light" className="hvr-grow">
 									<span role="img" aria-label="star" className="emojiFix">
@@ -45,8 +45,8 @@ export default function Footer({ dark, setDark }) {
 							<Link to="/about">
 								<Badge pill variant="light" className="hvr-grow">
 									About{" "}
-									<span role="img" aria-label="face-with-monocole" className="emojiFix">
-										🧐
+									<span role="img" aria-label="eye-roll" className="emojiFix">
+										👀
 									</span>
 								</Badge>
 							</Link>

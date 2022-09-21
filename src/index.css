@@ -7,4 +7,8 @@ body {
   font-family: 'Ubuntu Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("light.gif");
+  background-position: 800px 800px;
+  background-size: cover;
+  
 }

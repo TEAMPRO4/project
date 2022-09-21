@@ -1,5 +1,5 @@
 import Localbase from "localbase";
-import QuestionData, { version } from "../450DSAFinal";
+import QuestionData, { version } from "../Algo-HuntFINAL";
 let db = new Localbase("db");
 window.db = db;
 db.config.debug = false;

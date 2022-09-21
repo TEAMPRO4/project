@@ -65,7 +65,6 @@ function App() {
 		});
 	}
 
-	// export 450DSA-Progress data
 
 	function exportData(callback) {
 		exportDBData((data) => {
@@ -88,8 +87,8 @@ function App() {
 	return (
 		<Router>
 			<div className={dark ? 'App dark' : 'App'}>
-				<h1 className='app-heading text-center mt-5' style={{ color: dark ? 'white' : '' }}>
-					Algo-Hunt
+				<h1 className='app-heading text-center mt-5' style={{ color: dark ? 'white' : ''}}>
+			        <img src="https://i.postimg.cc/1t66r9T3/Screenshot-2022-09-02-005640.png" alt="image" height="175px" width="500px" border-radius="15px"></img>
 				</h1>
 
 				{questionData.length === 0 ? (

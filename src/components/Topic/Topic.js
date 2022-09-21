@@ -59,7 +59,7 @@ export default function Topic({ data, updateData }) {
 								href={question.URL}
 								target='_blank'
 								rel='noopener noreferrer'
-								style={{ fontWeight: '600', fontSize: '20px' }}
+								style={{fontWeight: '600', fontSize: '20px' }}
 								className='question-link'
 							>
 								{question.Problem}

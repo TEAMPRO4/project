@@ -138,9 +138,9 @@ export default function TopicCard({ questionData }) {
   return (
     <>
       <h3 className="app-heading2 text-center mb-3">
-        Your Gateway to crack DSA{" "}
+        Your very own learning portal.{" "}
         <span role="img" aria-label="fire">
-          🔥
+          🧑‍💻
         </span>
       </h3>
 

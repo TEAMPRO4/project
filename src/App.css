@@ -1,7 +1,9 @@
 .app-heading {
-	font-weight: 700;
+	font-weight: 500;
 	color: #343a40;
-	font-size: 50px;
+	font-size: 75px;
+	font-family: Ashley;
+	
 }
 .App {
 	position: absolute;
@@ -10,8 +12,11 @@
 	transition: all 0.3s ease-in-out;
 }
 .dark {
-	background-color: #151515;
-	color: white;
+	background-image: url("dark.gif");
+    background-size: cover;
+
+	background-color: #151515df;
+	color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 480px) {

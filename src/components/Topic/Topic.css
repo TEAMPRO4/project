@@ -7,7 +7,7 @@
 }
 
 .Toastify__toast-body {
-	color: white;
+	color: rgb(227, 206, 206);
 	font-family: 'Ubuntu Mono', monospace;
 	font-weight: 600;
 	padding: 0 0.5rem;
@@ -15,25 +15,25 @@
 
 .Toastify__toast-body .toast-subtitle {
 	font-weight: 400;
-	font-size: small;
+	font-size: medium;
 }
 
 /* Marked Complete */
 .Toastify__toast.toast-Done {
-	background: #27ae60;
+	background: #3399ff;
 }
 
 .Toastify__toast.toast-Done .Toastify__progress-bar {
-	background: #c8e6c9;
+	background: #ffffff;
 }
 
 /* Marked Incomplete */
 .Toastify__toast.toast-Incomplete {
-	background: #007bff;
+	background: #ff6565;
 }
 
 .Toastify__toast.toast-Incomplete .Toastify__progress-bar {
-	background: #aad0f6;
+	background: #ffffff;
 }
 
 .sort-button {
@@ -55,12 +55,12 @@
 
 .question-title {
 	width: 100%;
-	background: rgb(243, 243, 243);
+	background:  rgb(255, 255, 255);
 	margin-bottom: 0.5em;
 	font-weight: bold;
 	resize: none;
 	font-size: 1.2em;
-	border: 0.5px solid black;
+	border: 0.5px solid rgb(255, 0, 0);
 	border-radius: 5px;
 	padding: 0.5em 0.8em;
 	word-wrap: break-word;
@@ -136,11 +136,22 @@
 	border-top: 5px solid #062e56;
 }
 .dark-table {
-	color: white;
+	color: rgb(255, 255, 255);
 }
 
 .question-link:hover {
-	color: rgb(0, 115, 192);
+    color: rgb(255, 255, 255);
+	vertical-align: middle;
+	-webkit-transform: perspective(0.5px) translateZ(0);
+	transform: perspective(0.5px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	border-radius: 20%;
+	-webkit-transform: scale(1.03);
+	transform: scale(1.03);
 }
 .header-rand {
 	display: flex;
@@ -153,21 +164,22 @@
 .random > a {
 	padding: 10px 15px;
 	border-radius: 10px;
-	background-color: #27ae60;
-	color: white;
+	background-color: #ffffff;
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 }
 .random > a:hover {
 	color: white;
-	background-color: #1a8647;
+	background-color: #ffffff;
 }
 .pick-random-btn {
-	z-index: 0 !important; /*To Override z-index set by Bootstrap*/
+    color: rgb(0, 0, 0);
+	background-color: #ffffff; /*To Override z-index set by Bootstrap*/
 }
 
 .completed-questions {
 	margin: 0px;
-	background: rgb(200, 230, 201);
+	background: rgb(255, 255, 255);
 	font-size: 18px;
 	font-weight: 100;
 	padding: 5px 8px;
